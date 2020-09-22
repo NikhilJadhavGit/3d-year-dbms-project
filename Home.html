@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>sign up</title>
+		<link rel="stylesheet" href="css/form.css">
+
+	</head>
+	<body>
+		<?php  
+
+			?>
+		<header>
+				<nav>
+					<ul>
+						<li><a href="pages/container.php">About us</li>
+						<li><a href="login.php">Login</li>
+						<li><a href="index.php">Home</a>
+
+					</ul>
+				</nav>
+				SIGN UP
+		</header>
+		<div id="form_bg">
+			<form onsubmit="return validate()" method="post" action="connection.php">
+				<div class="left">First name:</div>
+				<div class="right"><input type="name" placeholder="first name" name="fname" id="fn" required=""></div>
+				 <div class="left">Last name:</div>
+				 <div class="right"><input type="name" placeholder="last name"  name="lname" id="ln" required=""></div>
+				 <div class="left">Email id:</div>
+				 <div class="right"><input type="Email" placeholder="Email@email.com" name="email" id="em" required=""></div>
+				 <div class="left">username</div>
+				 <div class="right"><input type="username" placeholder="username" name="usrname" id="usr" required=""></div>
+				 <div class="left">Password:</div>
+				 <div class="right"><input type="Password" placeholder="password" name="pass" id="pas" required=""></div>
+				 <div class="left">Confirm:<br>password</div>
+				 <div class="right"><input type="Password" placeholder="password" name="cpass" id="cpas" required=""></div>
+				 <div  class="submit"><input type="submit" value="submit" class="btn"></div>
+			</form>
+		</div>
+		<footer>
+			<marquee>all rights reserved to me and my team</marquee>
+		</footer>
+		<script src="script/signup.js"></script>
+		
+	</body>
+</html>

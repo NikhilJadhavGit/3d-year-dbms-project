@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	list-style: none;
+	
+
+}
+body{
+	margin:0px;
+	background-image: url('../bg/home.jpg');
+	color: white;
+	text-align: center;
+}
+
+#title{
+	margin-top: 200px;
+	font-size: 200%;
+	text-align: center;
+}
+#title p{
+	margin-top:-75px;
+}
+
+ul{
+	
+}
+li{	
+	margin-top: 20px;
+	text-align: center;
+}
+a{
+	background-color:rgba(255,255,255,0.2);
+	padding-right:75px;
+	padding-left: 75px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color:white;
+	text-decoration: none;
+	font-size: 25px;
+	border-radius: 5px;
+}
+a:hover{
+	padding-top: 7px;
+	padding-bottom: 7px;
+	transition:1s;
+	color:black;
+	padding-left: 100px;
+	padding-right: 100px;
+	background-color: white;
+}
